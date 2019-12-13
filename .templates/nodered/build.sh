@@ -9,27 +9,27 @@ node_selection=$(whiptail --title "Node-RED nodes" --checklist --separate-output
 	"node-red-node-openweathermap" " " "OFF" \
 	"node-red-node-google" " " "OFF" \
 	"node-red-node-emoncms" " " "OFF" \
-	"node-red-node-geofence" " " "OFF" \
-	"node-red-node-ping" " " "OFF" \
-	"node-red-node-random" " " "OFF" \
+	"node-red-node-geofence" " " "ON" \
+	"node-red-node-ping" " " "ON" \
+	"node-red-node-random" " " "ON" \
 	"node-red-node-smooth" " " "OFF" \
-	"node-red-node-darksky" " " "OFF" \
+	"node-red-node-darksky" " " "ON" \
 	"node-red-node-sqlite" " " "OFF" \
 	"node-red-contrib-influxdb" " " "ON" \
-	"node-red-contrib-config" " " "OFF" \
+	"node-red-contrib-config" " " "ON" \
 	"node-red-contrib-grove" " " "OFF" \
 	"node-red-contrib-diode" " " "OFF" \
-	"node-red-contrib-bigtimer" " " "OFF" \
+	"node-red-contrib-bigtimer" " " "ON" \
 	"node-red-contrib-esplogin" " " "OFF" \
-	"node-red-contrib-timeout" " " "OFF" \
-	"node-red-contrib-moment" " " "OFF" \
+	"node-red-contrib-timeout" " " "ON" \
+	"node-red-contrib-moment" " " "ON" \
 	"node-red-contrib-particle" " " "OFF" \
-	"node-red-contrib-web-worldmap" " " "OFF" \
+	"node-red-contrib-web-worldmap" " " "ON" \
 	"node-red-contrib-ramp-thermostat" " " "OFF" \
 	"node-red-contrib-isonline" " " "OFF" \
-	"node-red-contrib-npm" " " "OFF" \
-	"node-red-contrib-file-function" " " "OFF" \
-	"node-red-contrib-boolean-logic" " " "OFF" \
+	"node-red-contrib-npm" " " "ON" \
+	"node-red-contrib-file-function" " " "ON" \
+	"node-red-contrib-boolean-logic" " " "ON" \
 	"node-red-contrib-home-assistant-websocket" " " "OFF" \
 	"node-red-contrib-blynk-ws" " " "OFF" \
 	"node-red-contrib-owntracks" " " "OFF" \
