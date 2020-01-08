@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#get path of menu correct
+#get path of menu correct and updated a comment
 pushd ~/IOTstack
 
 declare -A cont_array=(
