@@ -1,0 +1,9 @@
+  nextcloud:
+    image: php:apache
+    container_name: php_apache
+    ports:
+      - 8082:80
+    volumes:
+      - ./volumes/php_apache/html:/var/www/html
+    restart: unless-stopped
+
