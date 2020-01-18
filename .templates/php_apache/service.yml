@@ -1,4 +1,4 @@
-  nextcloud:
+  php_apache:
     image: php:apache
     container_name: php_apache
     ports:
